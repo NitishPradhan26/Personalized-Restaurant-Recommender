@@ -6,16 +6,17 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](#)
 
 A lightweight web app that turns your **past orders** into a **taste profile** and instantly recommends restaurants that match your palate.  
-Built as a portfolio project to demonstrate full-stack skills and recommender-system design.
 
 ---
 
 ## ✨ Highlights
-- **Personalized recommendations** using a content-based filtering model (no user ratings required).  
-- **Taste profile visualization** so users understand *why* each restaurant is suggested.  
-- **Sub-second response time** thanks to pre-computed feature vectors and cosine-similarity lookup.  
-- **Modern stack:** React(frontend), Flask REST API (backend), Scikit-learn model.  
-- **Zero sensitive data:** ships with a tiny synthetic sample so anyone can run the demo locally.
+- **Hybrid recommendations:** Combines content-based matching **and** a lightweight collaborative layer.  
+  - *Content-based* → selects restaurants from a **dummy dataset that mirrors real menus and cuisines**, identifying those that best fit the user’s taste vector.  
+  - *Collaborative* → adds “explore” options enjoyed by customers with **similar profiles**, widening variety.  
+- **Taste-profile visualization** so users can see *why* each restaurant is suggested.  
+- **Sub-second response time** thanks to pre-computed vectors and fast cosine-similarity lookup.  
+- **Modern stack:** React, Flask REST API (backend), Scikit-learn model.  
+- **Zero sensitive data:** ships with a tiny synthetic sample—original fields are anonymized and identifiers renamed—so anyone can run the demo locally without exposing real data.
 
 ---
 
@@ -28,7 +29,7 @@ Built as a portfolio project to demonstrate full-stack skills and recommender-sy
 
 1. Make sure you have installed Node.js and npm installer on your machine.
 
-2. Make sure you have python 3, pip installer, and python sklearn on your machine.
+2. Make sure you have python 3, pip installer on your machine.
 
 3. Clone the github repository on your machine.
 
