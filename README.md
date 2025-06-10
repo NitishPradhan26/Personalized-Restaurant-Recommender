@@ -21,8 +21,7 @@ Built as a portfolio project to demonstrate full-stack skills and recommender-sy
 
 ## 🔥 Demo
 <!-- Replace with your own links / GIFs -->
-[Live Demo](https://your-demo-url.com)
-
+[Live Demo](assets/restaurant_recommendations_demo.gif)
 
 
 ## 🚀 Quick Start
@@ -31,34 +30,22 @@ Built as a portfolio project to demonstrate full-stack skills and recommender-sy
 
 2. Make sure you have python 3, pip installer, and python sklearn on your machine.
 
-3. Run 
+3. Clone the github repository on your machine.
 
-        pip install flask python-dotenv
-   
-   in your terminal to install flask
-   
-4. Clone the github repository on your machine.
-
-5. For Backend (Open first terminal), 
+4. For Backend (Open first terminal), 
 
         cd Website/main
-        
+        python -m venv venv && source venv/bin/activate
+        pip install -r requirements.txt
         flask --app index.py run
         
    in your terminal to start flask backend. This flask uses localhost:5000 
    
-6. For Frontend (Open second terminal), 
+5. For Frontend (Open second terminal), 
   
         cd Website/my-app
-        
         npm install
-        
-  This will automatically help you to install all the necessary components.
-  
-  Then
-      
         npm start
         
   This will start the react website. This react uses localhost:3000 
   
-  7. Have Fun!
