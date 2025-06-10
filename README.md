@@ -21,7 +21,7 @@ Built as a portfolio project to demonstrate full-stack skills and recommender-sy
 
 ## 🔥 Demo
 <!-- Replace with your own links / GIFs -->
-[Live Demo](assets/restaurant_recommendations_demo.gif)
+[Live Demo](assets/demo.gif)
 
 
 ## 🚀 Quick Start
