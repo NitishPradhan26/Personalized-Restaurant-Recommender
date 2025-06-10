@@ -1,0 +1,4 @@
+restaurant_id,short_name,created,skip_score,location_city,cussine_list
+32be3446-61c4-4477-bea4-1910ac5bb315,Demo1,2020-12-10 06:59:31.000000 UTC,70,Calgary,"Beer, Wine, Lunch, Burgers, American, Only on Skip, Sandwiches & Subs, Breakfast & Brunch, Healthy, Canadian, Coffee/Tea"
+89edda71-73a7-4ce9-b6cb-3ce942325667,Demo2,2017-12-29 21:48:21.000000 UTC,68,Calgary,"Beer, Halal, Chicken, Homemade, Indian, Alcohol, Vegetarian, International"
+c2e295d2-c94d-4f54-9e95-7f965b2dc847,Demo3,2020-12-10 06:48:23.000000 UTC,69,Calgary,"Wine, Lunch, Burgers, American, Only on Skip, Beer, Healthy, Canadian, Coffee/Tea, Sandwiches & Subs, Breakfast & Brunch"
