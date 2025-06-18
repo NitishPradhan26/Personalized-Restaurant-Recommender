@@ -22,7 +22,7 @@ A lightweight web app that turns your **past orders** into a **taste profile** a
 
 ## 🔥 Demo
 <!-- Replace with your own links / GIFs -->
-[Live Demo](assets/demo.gif)
+![Live Demo](assets/demo.gif)
 
 
 ## 🚀 Quick Start
